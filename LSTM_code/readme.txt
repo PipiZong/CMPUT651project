@@ -1,0 +1,4 @@
+﻿1. standard_lstm_with_sentiment.py aims to use the features with embedded with Glove and sentiment information to build a standard LSTM model. Then this model is tested to get the final score which is the main evaluation measurement of the challenge, while standard_lstm_no_sentiment.py just uses the features with Glove embedding.
+By simply changing nn.LSTM to nn.GRU in line 97 of  standard_lstm_with_sentiment.py or the corresponding line in standard_lstm_no_sentiment.py, standard GRU classification result can be derived.
+
+2. What multi_layer_bilstm_with_sentiment.py is different from  standard_lstm_with_sentiment.py is the way the model is built.  What multi_layer_bilstm_with_sentiment.py is different from  multi_layer_bilstm_no_sentiment.py is also whether the features  embedded with sentiment information. 

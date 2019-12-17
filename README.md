@@ -30,3 +30,5 @@ Standard_lstm_with_sentiment.py aims to use the features with embedded with Glov
 By simply changing nn.LSTM to nn.GRU in line 97 of  standard_lstm_with_sentiment.py or the corresponding line in standard_lstm_no_sentiment.py, standard GRU classification result can be derived.
 
 What multi_layer_bilstm_with_sentiment.py is different from  standard_lstm_with_sentiment.py is the way the model is built.  What multi_layer_bilstm_with_sentiment.py is different from  multi_layer_bilstm_no_sentiment.py is also whether the features  embedded with sentiment information.
+
+all related files can be found in https://drive.google.com/drive/folders/1TvBjapKvf9VjEWDCI6j-femsmrnAEZoF?usp=sharing
